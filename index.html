@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torian's Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #D3D3D3;
+        }
+        h1, h2, h3 {
+            color: darkblue;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 5px 1;
+        }
+        a {
+            text-decoration: none;
+            color: darkblue;
+        }
+        a:hover {
+            color: #333;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project-description {
+            margin: 10px 0;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            background-color: #899499;
+            width: 250px;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+        }
+        .sidebar ul {
+            padding-left: 0;
+        }
+        .sidebar li {
+            padding: 10px 0;
+        }
+        .sidebar a {
+            color: #fff;
+        }
+        .sidebar a:hover {
+            color: darkblue;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+            max-width: calc(100% - 250px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Torian Figures - Data Manager/Sr. Data Analyst</h1>
+            <p>Email: <a href="mailto:tfigures@gmail">tfigures@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/torian-figures-553a4a50/" target="_blank">https://www.linkedin.com/in/torian-figures-553a4a50/</a></p>
+            <p>Github: <a href="https://github.com/janedoe" target="_blank">https://github.com/janedoe</a></p>
+
+            <hr>
+
+            <h2 id="about">About Me</h2>
+            <p>As a data professional with over 6 years of experience, I am passionate about turning data into actionable insights through exploration. I have a strong background in data analysis and data visualization using Excel and programming languages like Python and R. I am always eager to learn new tools and techniques to improve my skills and help businesses make better data-driven decisions.</p>
+
+            <h2 id="skills">Technical Skills</h2>
+            <ul>
+                <li>&bull; SQL</li>
+                <li>&bull; Tableau/Tableau Prep</li>
+                <li>&bull; Python - pandas, numpy, matplotlib, seaborn</li>
+                <li>&bull; R - tidyverse, ggplot2</li>
+                <li>&bull; Excel</li>                
+            </ul>
+
+            <h2 id="projects">Projects</h2>
+            <div class="project">
+                <h3>Project 1: Sales Data Analysis</h3>
+                <p class="project-description">Description: Analyzed sales data to find trends and patterns, and provided recommendations for improving sales performance.</p>
+                <p>Tools: Python, Pandas, Matplotlib</p>
+                <p>Link: <a href="https://github.com/janedoe/sales-data-analysis" target="_blank">https://github.com/janedoe/sales-data-analysis</a></p>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: Customer Segmentation</h3>
+                <p class="project-description">Description: Performed customer segmentation using clustering algorithms to identify target customer groups for marketing campaigns.</p>
+                <p>Tools: R, ggplot2, K-means Clustering</p>
+                <p>Link: <a href="https://github.com/janedoe/customer-segmentation" target="_blank">https://github.com/janedoe/customer-segmentation</a></p>
+            </div>
+
+            <div class="project">
+                <h3>Project 3: Time Series Forecasting</h3>
+                <p class="project-description">Description: Developed time series models to forecast product demand and optimize inventory management.</p>
+                <p>Tools: Python, Prophet, ARIMA</p>
+                <p>Link: <a href="https://github.com/janedoe/time-series-forecasting" target="_blank">https://github.com/janedoe/time-series-forecasting</a></p>
+            </div>
+
+            <h2 id="certifications">Certifications</h2>
+            <ul>
+                <li><a href="https://www.credly.com/badges/ecedea81-7fd8-458c-bbbb-02113514f3b5/public_url" target="_blank">Google Data Analystics Certificate</a></li>
+                <li><a href="https://www.credly.com/badges/0613fdb1-ffc5-40b9-b130-a0001304e4bd/linked_in_profile" target = "_blank">Tableau Certified Data Analyst</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/8DWBFM5MSQYF" target="_blank">SQL for Data Science</a></li>
+            </ul>
+
+            <h2 id="education">Education</h2>
+            <h3>Bachelor of Science in Industrial Technology</h3>
+            <p>University of Pine Bluff Arkansas, Graduated 2007</p>
+
+
+
+            </div> <!-- Closing main-content div -->
+            </div> <!-- Closing container div -->
+
+</body>
+</html>
